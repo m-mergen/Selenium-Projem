@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="test suite">
+    <test name="kac numarali test" >
+        <classes>
+            <class name="ders06_Include_Exlude_Medhotlari">
+                <methods>
+                    <exclude name="test4"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

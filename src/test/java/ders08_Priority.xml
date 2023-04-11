@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="test suide"  >
+    <test name="Oncelik Sıralaması" >
+        <classes>
+            <class name="ders08_testoncelikSırasınaGoreKosma"/>
+        </classes>
+    </test>
+</suite>
